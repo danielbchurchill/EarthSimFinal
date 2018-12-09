@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'klimaLight';
     src: local("klima-light-web.woff2"),
-    url(/library/Fonts/klima-light-web.woff2);
+        url(/library/Fonts/klima-light-web.woff2);
 }
 
-@font-face{
+@font-face {
     font-family: 'klima';
     src: url(/library/Fonts/klima-medium-web.woff2)
 }
 
-@font-face{
+@font-face {
     font-family: 'klimaHeavy';
     src: url(/library/Fonts/klima-heavy-web.woff2)
 }
 
-@font-face{
+@font-face {
     font-family: 'klimaBold';
     src: url(/library/Fonts/klima-bold-web.woff2)
 }
@@ -25,7 +25,7 @@ document {
 }
 */
 
-b{
+b {
     font-family: klima;
     color: FFA902;
 }
@@ -36,6 +36,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-size: 62.5%;
 }
 
 #preloader {
@@ -124,7 +125,7 @@ body {
     border-bottom: 5px solid #17292E;
 }
 
-.textBox{
+.textBox {
     font-family: 'klimaLight';
     background-color: none;
     color: #efefefef;
@@ -138,11 +139,13 @@ body {
     max-width: 30vw;
 }
 
-#textBoxOne, #textBoxTwo, #textBoxThree {
+#textBoxOne,
+#textBoxTwo,
+#textBoxThree {
     display: none;
 }
 
-#textBoxThree{
+#textBoxThree {
     max-width: 70vw;
     left: 15vw;
     top: 10vh;
@@ -173,11 +176,14 @@ body {
     max-width: none;
 }
 
-#pageTitleOne, #pageTitleTwo, #pageTitleThree {
+#pageTitleOne,
+#pageTitleTwo,
+#pageTitleThree {
     display: none;
 
 }
-#pageTitleThree{
+
+#pageTitleThree {
     left: 15vw
 }
 
@@ -198,7 +204,9 @@ body {
 
 }
 
-#subheaderOne, #subheaderTwo, #subheaderThree {
+#subheaderOne,
+#subheaderTwo,
+#subheaderThree {
     display: none;
 }
 
