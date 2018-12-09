@@ -36,7 +36,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-size: 62.5%;
 }
 
 #preloader {
@@ -130,9 +129,6 @@ body {
     background-color: none;
     color: #efefefef;
     text-align: left;
-    left: 60vw;
-    top: 16vh;
-    position: absolute;
     z-index: 300;
     font-size: 1em;
     line-height: 1.70em;
@@ -187,17 +183,28 @@ body {
     left: 15vw
 }
 
+.des {
+    position: absolute;
+    right: 25vw;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(50%);
+    width: 500px;
+    height: auto;
+    background: red;
+}
+
 .subHeader {
     font-family: 'klima';
     background-color: none;
     color: #369AF2;
     text-align: left;
     font-size: 1.5em;
-    left: 60%;
-    top: 7%;
     z-index: 200;
     display: inline;
-    position: absolute;
     max-width: 35vw;
     line-height: 1.8em;
 
